@@ -33,7 +33,7 @@ namespace OnlineRestaurantWpf.Models
         public Dish()
         {
             DishAllergens = new HashSet<DishAllergen>();
-            Images = new HashSet<DishImage>();
+            Images = new List<DishImage>();
             MenuDishes = new HashSet<MenuDish>();
             OrderItems = new HashSet<OrderItem>();
             IsAvailable = true;

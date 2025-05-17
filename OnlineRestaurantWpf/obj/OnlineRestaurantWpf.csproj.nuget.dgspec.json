@@ -84,11 +84,7 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[9.0.5, )"
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",

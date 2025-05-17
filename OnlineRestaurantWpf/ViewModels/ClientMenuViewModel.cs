@@ -42,12 +42,20 @@ namespace OnlineRestaurantWpf.ViewModels
         [ObservableProperty]
         private string? _errorMessage;
 
+        [ObservableProperty]
+        private string _searchText = string.Empty;
+
+        [ObservableProperty]
+        private bool _searchByName = true;
+
+        [ObservableProperty]
+        private bool _excludeAllergen;
+
         public ClientMenuViewModel(CategoryBLL categoryBLL, DishBLL dishBLL, MenuBLL menuBLL)
         {
             _categoryBLL = categoryBLL;
             _dishBLL = dishBLL;
             _menuBLL = menuBLL;
-            // LoadMenuDataCommand.Execute(null); // Auto-load data when ViewModel is created
         }
 
         [RelayCommand]
@@ -60,36 +68,25 @@ namespace OnlineRestaurantWpf.ViewModels
             try
             {
                 var categories = await _categoryBLL.GetAllCategoriesAsync();
-                var allDishes = await _dishBLL.GetAllDishesAsync();
-                var allMenus = await _menuBLL.GetAllMenusAsync();
+                var dishes = await _dishBLL.GetAllDishesAsync();
+                var menus = await _menuBLL.GetAllMenusAsync();
 
-                foreach (var cat in categories)
+                foreach (var category in categories)
                 {
-                    var displayCategory = new DisplayCategory(cat);
-
-                    var dishesInCategory = allDishes.Where(d => d.CategoryId == cat.Id && d.IsAvailable);
-                    foreach (var dish in dishesInCategory)
+                    var displayCategory = new DisplayCategory(category);
+                    
+                    // Add dishes for this category
+                    var categoryDishes = dishes.Where(d => d.CategoryId == category.Id);
+                    foreach (var dish in categoryDishes)
                     {
                         displayCategory.Dishes.Add(dish);
                     }
 
-                    var menusInCategory = allMenus.Where(m => m.CategoryId == cat.Id && m.IsAvailable);
-                    foreach (var menu in menusInCategory)
+                    // Add menus for this category
+                    var categoryMenus = menus.Where(m => m.CategoryId == category.Id);
+                    foreach (var menu in categoryMenus)
                     {
-                        bool allComponentsAvailable = true;
-                        if (menu.MenuDishes != null)
-                        {
-                            foreach (var menuDish in menu.MenuDishes)
-                            {
-                                var componentDish = allDishes.FirstOrDefault(d => d.Id == menuDish.DishId);
-                                if (componentDish == null || !componentDish.IsAvailable)
-                                {
-                                    allComponentsAvailable = false;
-                                    break;
-                                }
-                            }
-                        }
-                        if (allComponentsAvailable) displayCategory.Menus.Add(menu);
+                        displayCategory.Menus.Add(menu);
                     }
 
                     if (displayCategory.Dishes.Any() || displayCategory.Menus.Any())
@@ -100,7 +97,84 @@ namespace OnlineRestaurantWpf.ViewModels
             }
             catch (Exception ex)
             {
-                ErrorMessage = "Failed to load menu data. Please try again later.";
+                ErrorMessage = $"Error loading menu data: {ex.Message}";
+            }
+            finally
+            {
+                IsLoading = false;
+            }
+        }
+
+        [RelayCommand]
+        private async Task SearchAsync()
+        {
+            if (string.IsNullOrWhiteSpace(SearchText))
+            {
+                await LoadMenuDataAsync();
+                return;
+            }
+
+            IsLoading = true;
+            ErrorMessage = null;
+            MenuCategories.Clear();
+
+            try
+            {
+                var categories = await _categoryBLL.GetAllCategoriesAsync();
+                var dishes = await _dishBLL.GetAllDishesAsync();
+                var menus = await _menuBLL.GetAllMenusAsync();
+
+                foreach (var category in categories)
+                {
+                    var displayCategory = new DisplayCategory(category);
+                    var categoryDishes = dishes.Where(d => d.CategoryId == category.Id);
+                    var categoryMenus = menus.Where(m => m.CategoryId == category.Id);
+
+                    if (SearchByName)
+                    {
+                        // Search by name (both dishes and menus)
+                        categoryDishes = categoryDishes.Where(d => 
+                            d.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase));
+                        
+                        categoryMenus = categoryMenus.Where(m => 
+                            m.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase) ||
+                            m.MenuDishes.Any(md => 
+                                md.Dish.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase)));
+                    }
+                    else if (ExcludeAllergen)
+                    {
+                        // Exclude dishes and menus containing the allergen
+                        categoryDishes = categoryDishes.Where(d => 
+                            !d.DishAllergens.Any(da => 
+                                da.Allergen.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase)));
+                        
+                        categoryMenus = categoryMenus.Where(m => 
+                            !m.MenuDishes.Any(md => 
+                                md.Dish.DishAllergens.Any(da => 
+                                    da.Allergen.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase))));
+                    }
+
+                    // Add filtered dishes
+                    foreach (var dish in categoryDishes)
+                    {
+                        displayCategory.Dishes.Add(dish);
+                    }
+
+                    // Add filtered menus
+                    foreach (var menu in categoryMenus)
+                    {
+                        displayCategory.Menus.Add(menu);
+                    }
+
+                    if (displayCategory.Dishes.Any() || displayCategory.Menus.Any())
+                    {
+                        MenuCategories.Add(displayCategory);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"Error searching menu: {ex.Message}";
             }
             finally
             {

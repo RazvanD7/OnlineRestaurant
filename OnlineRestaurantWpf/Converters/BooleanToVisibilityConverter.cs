@@ -15,6 +15,20 @@ namespace OnlineRestaurantWpf.Converters
                 boolValue = b;
             }
 
+            // Simple NotNullOrEmpty check for strings
+            if (parameter as string == "NotNullOrEmpty" && value is string s)
+            {
+                boolValue = !string.IsNullOrEmpty(s);
+                return boolValue ? Visibility.Visible : Visibility.Collapsed;
+            }
+            // Simple GreaterThanZero check for counts (int)
+            if (parameter as string == "GreaterThanZero" && value is int count)
+            {
+                boolValue = count > 0;
+                return boolValue ? Visibility.Visible : Visibility.Collapsed;
+            }
+
+
             if (parameter != null &&
                 (parameter.ToString().Equals("invert", StringComparison.OrdinalIgnoreCase) ||
                  parameter.ToString().Equals("inverted", StringComparison.OrdinalIgnoreCase) ||
@@ -29,21 +43,8 @@ namespace OnlineRestaurantWpf.Converters
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value is Visibility visibility)
-            {
-                bool boolValue = visibility == Visibility.Visible;
-
-                if (parameter != null &&
-                    (parameter.ToString().Equals("invert", StringComparison.OrdinalIgnoreCase) ||
-                     parameter.ToString().Equals("inverted", StringComparison.OrdinalIgnoreCase) ||
-                     parameter.ToString().Equals("Not", StringComparison.OrdinalIgnoreCase)
-                    ))
-                {
-                    return !boolValue;
-                }
-                return boolValue;
-            }
-            return false;
+            // Not typically needed for one-way visibility conversion
+            throw new NotImplementedException();
         }
     }
 }

@@ -9,6 +9,28 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="Assets\Images\beefsteak_main.jpg" />
+	  <None Remove="Assets\Images\bruschetta_alt1.jpg" />
+	  <None Remove="Assets\Images\bruschetta_main.jpg" />
+	  <None Remove="Assets\Images\burger_main.jpg" />
+	  <None Remove="Assets\Images\caesarsalad_main.jpg" />
+	  <None Remove="Assets\Images\carbonara_main.jpg" />
+	  <None Remove="Assets\Images\cheesecake_main.jpg" />
+	  <None Remove="Assets\Images\chickenalfredo_main.jpg" />
+	  <None Remove="Assets\Images\chickencurry_main.jpg" />
+	  <None Remove="Assets\Images\chickennoodlesoup_main.jpg" />
+	  <None Remove="Assets\Images\cocacola.jpg" />
+	  <None Remove="Assets\Images\greeksalad_main.jpg" />
+	  <None Remove="Assets\Images\grilledchicken_main.jpg" />
+	  <None Remove="Assets\Images\lavacake_main.jpg" />
+	  <None Remove="Assets\Images\orangejuice.jpg" />
+	  <None Remove="Assets\Images\risotto_main.jpg" />
+	  <None Remove="Assets\Images\springrolls_main.jpg" />
+	  <None Remove="Assets\Images\tomatosoup_main.jpg" />
+	  <None Remove="Assets\Images\vegstirfry_main.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
@@ -22,8 +44,7 @@
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.5" />
-		<PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.5" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
 	</ItemGroup>
 
@@ -34,15 +55,72 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Assets\Images\" />
-		<Folder Include="Assets\Images\" />
 		<Folder Include="BusinessLogicLayer\" />
 		<Folder Include="Converters\" />
 		<Folder Include="Data\" />
 		<Folder Include="Helpers\" />
+		<Folder Include="Migrations\" />
 		<Folder Include="Models\" />
-		<Folder Include="Views\" />
-		<Folder Include="ViewModels\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Assets\Images\beefsteak_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\bruschetta_alt1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\bruschetta_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\burger_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\caesarsalad_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\carbonara_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\cheesecake_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\chickenalfredo_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\chickencurry_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\chickennoodlesoup_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\cocacola.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\greeksalad_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\grilledchicken_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\lavacake_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\orangejuice.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\risotto_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\springrolls_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\tomatosoup_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\vegstirfry_main.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
 	</ItemGroup>
 
 </Project>

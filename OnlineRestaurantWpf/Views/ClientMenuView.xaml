@@ -12,6 +12,7 @@
              Background="WhiteSmoke">
     <UserControl.Resources>
         <converters:BooleanToVisibilityConverter x:Key="LocalBooleanToVisibilityConverter"/>
+        <converters:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
         <Style TargetType="TextBlock" x:Key="CategoryHeaderStyle">
             <Setter Property="FontSize" Value="24"/>
             <Setter Property="FontWeight" Value="Bold"/>
@@ -61,9 +62,17 @@
         </Grid.RowDefinitions>
 
         <Border Grid.Row="0" Padding="10" Background="LightGray">
-            <StackPanel Orientation="Horizontal">
-                <TextBox MinWidth="300" Margin="0,0,10,0" Text="Search... (Not Implemented)"/>
-                <Button Content="Search"/>
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                    <TextBox MinWidth="300" Margin="0,0,10,0" 
+                             Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Button Content="Search" Command="{Binding SearchCommand}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Content="Search by name" IsChecked="{Binding SearchByName}" 
+                                Margin="0,0,20,0"/>
+                    <RadioButton Content="Exclude allergen" IsChecked="{Binding ExcludeAllergen}"/>
+                </StackPanel>
             </StackPanel>
         </Border>
 
@@ -93,8 +102,12 @@
                                             <Border Style="{StaticResource ItemBorderStyle}">
                                                 <StackPanel>
                                                     <Image Style="{StaticResource DishImageStyle}" 
-                                                           Visibility="{Binding Images.Count, Converter={StaticResource LocalBooleanToVisibilityConverter}, ConverterParameter=GreaterThanZero}"
-                                                           Source="{Binding Images[0].ImagePath}"/>
+                                                           Visibility="{Binding Images.Count, Converter={StaticResource LocalBooleanToVisibilityConverter}, ConverterParameter=GreaterThanZero}">
+                                                        <Image.Source>
+                                                            <Binding Path="Images[0].ImagePath" TargetNullValue="/Assets/Images/placeholder.png"/>
+                                                        </Image.Source>
+                                                    </Image>
+
                                                     <TextBlock Text="{Binding Name}" Style="{StaticResource ItemNameStyle}"/>
                                                     <TextBlock Text="{Binding Description}" Style="{StaticResource ItemDetailStyle}" TextWrapping="Wrap"/>
                                                     <TextBlock Style="{StaticResource ItemDetailStyle}">

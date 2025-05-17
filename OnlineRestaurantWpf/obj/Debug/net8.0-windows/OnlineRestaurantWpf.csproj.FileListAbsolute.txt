@@ -58,7 +58,6 @@ C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\bin\Debug\
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
-C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\bin\Debug\net8.0-windows\System.Memory.Data.dll
