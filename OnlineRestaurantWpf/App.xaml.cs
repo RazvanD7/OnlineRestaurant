@@ -67,7 +67,6 @@ namespace OnlineRestaurantWpf
             services.AddTransient<CategoryBLL>();
             services.AddTransient<DishBLL>();
             services.AddTransient<MenuBLL>();
-            services.AddTransient<OrderBLL>();
             services.AddTransient<AllergenBLL>();
 
             services.AddTransient<LoginViewModel>();

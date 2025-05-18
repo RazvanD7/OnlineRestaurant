@@ -28,14 +28,12 @@ namespace OnlineRestaurantWpf.Models
         public ICollection<DishAllergen> DishAllergens { get; set; }
         public ICollection<DishImage> Images { get; set; }
         public ICollection<MenuDish> MenuDishes { get; set; }
-        public ICollection<OrderItem> OrderItems { get; set; }
 
         public Dish()
         {
             DishAllergens = new HashSet<DishAllergen>();
             Images = new List<DishImage>();
             MenuDishes = new HashSet<MenuDish>();
-            OrderItems = new HashSet<OrderItem>();
             IsAvailable = true;
             Unit = "g"; // Default unit, can be changed
         }

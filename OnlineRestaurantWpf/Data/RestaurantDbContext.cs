@@ -13,8 +13,6 @@ namespace OnlineRestaurantWpf.Data
         public DbSet<Menu> Menus { get; set; }
         public DbSet<MenuDish> MenuDishes { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderItem> OrderItems { get; set; }
 
         public RestaurantDbContext(DbContextOptions<RestaurantDbContext> options)
             : base(options) { }
@@ -77,30 +75,6 @@ namespace OnlineRestaurantWpf.Data
                 .HasOne(m => m.Category)
                 .WithMany(c => c.Menus)
                 .HasForeignKey(m => m.CategoryId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Order>()
-                .HasOne(o => o.User)
-                .WithMany(u => u.Orders)
-                .HasForeignKey(o => o.UserId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<OrderItem>()
-                .HasOne(oi => oi.Order)
-                .WithMany(o => o.Items)
-                .HasForeignKey(oi => oi.OrderId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<OrderItem>()
-                .HasOne(oi => oi.Dish)
-                .WithMany(d => d.OrderItems)
-                .HasForeignKey(oi => oi.DishId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<OrderItem>()
-                .HasOne(oi => oi.Menu)
-                .WithMany(m => m.OrderItems)
-                .HasForeignKey(oi => oi.MenuId)
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Category>()

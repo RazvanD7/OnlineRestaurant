@@ -18,12 +18,10 @@ namespace OnlineRestaurantWpf.Models
         public Category Category { get; set; }
 
         public ICollection<MenuDish> MenuDishes { get; set; }
-        public ICollection<OrderItem> OrderItems { get; set; }
 
         public Menu()
         {
             MenuDishes = new HashSet<MenuDish>();
-            OrderItems = new HashSet<OrderItem>();
             IsAvailable = true;
         }
     }

@@ -42,7 +42,7 @@ namespace OnlineRestaurantWpf.ViewModels
                    !IsLoginInProgress;
         }
 
-        [RelayCommand(CanExecute = nameof(CanLogin))]
+        [RelayCommand]
         private async Task LoginAsync()
         {
             if (SecurePassword == null)

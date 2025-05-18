@@ -58,7 +58,7 @@ namespace OnlineRestaurantWpf.ViewModels
                    !IsRegistrationInProgress;
         }
 
-        [RelayCommand(CanExecute = nameof(CanRegister))]
+        [RelayCommand]
         private async Task RegisterAsync()
         {
             if (SecurePassword == null || SecureConfirmPassword == null)

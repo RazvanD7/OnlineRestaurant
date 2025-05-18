@@ -18,11 +18,9 @@ namespace OnlineRestaurantWpf.Models
         public string PasswordHash { get; set; }
         public string Role { get; set; }
 
-        public ICollection<Order> Orders { get; set; }
 
         public User()
         {
-            Orders = new HashSet<Order>();
         }
     }
 }
