@@ -24,6 +24,7 @@
 	  <None Remove="Assets\Images\grilledchicken_main.jpg" />
 	  <None Remove="Assets\Images\lavacake_main.jpg" />
 	  <None Remove="Assets\Images\orangejuice.jpg" />
+	  <None Remove="Assets\Images\placeholder.png" />
 	  <None Remove="Assets\Images\risotto_main.jpg" />
 	  <None Remove="Assets\Images\springrolls_main.jpg" />
 	  <None Remove="Assets\Images\tomatosoup_main.jpg" />
@@ -107,6 +108,9 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Resource>
 	  <Resource Include="Assets\Images\orangejuice.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\Images\placeholder.png">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Resource>
 	  <Resource Include="Assets\Images\risotto_main.jpg">

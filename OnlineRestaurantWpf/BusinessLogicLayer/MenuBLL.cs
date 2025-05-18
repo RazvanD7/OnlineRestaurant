@@ -26,7 +26,12 @@ namespace OnlineRestaurantWpf.BusinessLogicLayer
             return await context.Menus
                 .Include(m => m.Category)
                 .Include(m => m.MenuDishes)
-                    .ThenInclude(md => md.Dish) // Ensure Dish is included to access its Unit
+                    .ThenInclude(md => md.Dish)
+                        .ThenInclude(d => d.Images)
+                .Include(m => m.MenuDishes)
+                    .ThenInclude(md => md.Dish)
+                        .ThenInclude(d => d.DishAllergens)
+                            .ThenInclude(da => da.Allergen)
                 .OrderBy(m => m.Name)
                 .ToListAsync();
         }

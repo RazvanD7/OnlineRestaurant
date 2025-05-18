@@ -163,6 +163,13 @@
                                         <DataTemplate DataType="{x:Type models:Menu}">
                                             <Border Style="{StaticResource ItemBorderStyle}">
                                                 <StackPanel>
+                                                    <Image Height="120" Width="270" Stretch="UniformToFill" Margin="0,0,0,10" HorizontalAlignment="Center">
+                                                        <Image.Source>
+                                                            <MultiBinding Converter="{StaticResource FirstDishImagePathConverter}">
+                                                                <Binding Path="MenuDishes"/>
+                                                            </MultiBinding>
+                                                        </Image.Source>
+                                                    </Image>
                                                     <TextBlock Text="{Binding Name}" Style="{StaticResource ItemNameStyle}"/>
                                                     <TextBlock Text="{Binding Description}" Style="{StaticResource ItemDetailStyle}" TextWrapping="Wrap"/>
                                                     <TextBlock Text="Ingredients:" FontWeight="SemiBold" Style="{StaticResource ItemDetailStyle}" Margin="0,5,0,0"/>
@@ -172,6 +179,20 @@
                                                                 <TextBlock Style="{StaticResource ItemDetailStyle}" Margin="10,0,0,0">
                                                                     <Run Text="{Binding Dish.Name}"/> (<Run Text="{Binding QuantityInMenu}"/><Run Text="{Binding Dish.Unit}"/>)
                                                                 </TextBlock>
+                                                            </DataTemplate>
+                                                        </ItemsControl.ItemTemplate>
+                                                    </ItemsControl>
+                                                    <TextBlock Text="Allergens:" FontWeight="SemiBold" Style="{StaticResource ItemDetailStyle}" Margin="0,5,0,0"/>
+                                                    <ItemsControl ItemsSource="{Binding MenuDishes}">
+                                                        <ItemsControl.ItemTemplate>
+                                                            <DataTemplate>
+                                                                <ItemsControl ItemsSource="{Binding Dish.DishAllergens}">
+                                                                    <ItemsControl.ItemTemplate>
+                                                                        <DataTemplate>
+                                                                            <TextBlock Text="{Binding Allergen.Name}" Style="{StaticResource ItemDetailStyle}" Margin="5,0,0,0"/>
+                                                                        </DataTemplate>
+                                                                    </ItemsControl.ItemTemplate>
+                                                                </ItemsControl>
                                                             </DataTemplate>
                                                         </ItemsControl.ItemTemplate>
                                                     </ItemsControl>
