@@ -73,6 +73,7 @@ namespace OnlineRestaurantWpf.ViewModels
         {
             LoggedInUserDisplayName = null;
             IsUserLoggedIn = false;
+            _clientMenuViewModel.SetUserRole(null);
             CurrentViewModel = _loginViewModel;
         }
 
@@ -94,6 +95,7 @@ namespace OnlineRestaurantWpf.ViewModels
         private void OnNavigateToClientViewRequested()
         {
             CurrentViewModel = _clientMenuViewModel;
+            _clientMenuViewModel.SetUserRole(null);
             _clientMenuViewModel.LoadMenuDataCommand.Execute(null);
         }
     }

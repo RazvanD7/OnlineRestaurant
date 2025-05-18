@@ -99,36 +99,41 @@
                                     </ItemsControl.ItemsPanel>
                                     <ItemsControl.ItemTemplate>
                                         <DataTemplate DataType="{x:Type models:Dish}">
-                                            <Border Style="{StaticResource ItemBorderStyle}">
-                                                <StackPanel>
-                                                    <Image Style="{StaticResource DishImageStyle}" 
-                                                           Visibility="{Binding Images.Count, Converter={StaticResource LocalBooleanToVisibilityConverter}, ConverterParameter=GreaterThanZero}">
-                                                        <Image.Source>
-                                                            <Binding Path="Images[0].ImagePath" TargetNullValue="/Assets/Images/placeholder.png"/>
-                                                        </Image.Source>
-                                                    </Image>
-
-                                                    <TextBlock Text="{Binding Name}" Style="{StaticResource ItemNameStyle}"/>
-                                                    <TextBlock Text="{Binding Description}" Style="{StaticResource ItemDetailStyle}" TextWrapping="Wrap"/>
-                                                    <TextBlock Style="{StaticResource ItemDetailStyle}">
-                                                        <Run Text="Price:" FontWeight="SemiBold"/> <Run Text="{Binding Price, StringFormat=C, ConverterCulture=ro-RO}"/>
-                                                    </TextBlock>
-                                                    <TextBlock Style="{StaticResource ItemDetailStyle}">
-                                                        <Run Text="Portion:" FontWeight="SemiBold"/>
-                                                        <Run Text="{Binding PortionQuantity}"/> <Run Text="{Binding Unit}"/>
-                                                    </TextBlock>
-                                                    <TextBlock FontWeight="SemiBold" Style="{StaticResource ItemDetailStyle}" Margin="0,5,0,0" 
-                                                               Visibility="{Binding DishAllergens.Count, Converter={StaticResource LocalBooleanToVisibilityConverter}, ConverterParameter=GreaterThanZero}">
-                                                        <Run Text="Allergens:"/>
-                                                    </TextBlock>
-                                                    <ItemsControl ItemsSource="{Binding DishAllergens}">
-                                                        <ItemsControl.ItemTemplate>
-                                                            <DataTemplate DataType="{x:Type models:DishAllergen}">
-                                                                <TextBlock Text="{Binding Allergen.Name}" Style="{StaticResource ItemDetailStyle}" Margin="10,0,0,0"/>
-                                                            </DataTemplate>
-                                                        </ItemsControl.ItemTemplate>
-                                                    </ItemsControl>
-                                                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Border Style="{StaticResource ItemBorderStyle}" MinHeight="420">
+                                                <Grid>
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="*"/>
+                                                        <RowDefinition Height="Auto"/>
+                                                    </Grid.RowDefinitions>
+                                                    <StackPanel Grid.Row="0">
+                                                        <Image Style="{StaticResource DishImageStyle}" 
+                                                               Visibility="{Binding Images.Count, Converter={StaticResource LocalBooleanToVisibilityConverter}, ConverterParameter=GreaterThanZero}">
+                                                            <Image.Source>
+                                                                <Binding Path="Images[0].ImagePath" TargetNullValue="/Assets/Images/placeholder.png"/>
+                                                            </Image.Source>
+                                                        </Image>
+                                                        <TextBlock Text="{Binding Name}" Style="{StaticResource ItemNameStyle}"/>
+                                                        <TextBlock Text="{Binding Description}" Style="{StaticResource ItemDetailStyle}" TextWrapping="Wrap"/>
+                                                        <TextBlock Style="{StaticResource ItemDetailStyle}">
+                                                            <Run Text="Price:" FontWeight="SemiBold"/> <Run Text="{Binding Price, StringFormat=C, ConverterCulture=ro-RO}"/>
+                                                        </TextBlock>
+                                                        <TextBlock Style="{StaticResource ItemDetailStyle}">
+                                                            <Run Text="Portion:" FontWeight="SemiBold"/>
+                                                            <Run Text="{Binding PortionQuantity}"/> <Run Text="{Binding Unit}"/>
+                                                        </TextBlock>
+                                                        <TextBlock FontWeight="SemiBold" Style="{StaticResource ItemDetailStyle}" Margin="0,5,0,0" 
+                                                                   Visibility="{Binding DishAllergens.Count, Converter={StaticResource LocalBooleanToVisibilityConverter}, ConverterParameter=GreaterThanZero}">
+                                                            <Run Text="Allergens:"/>
+                                                        </TextBlock>
+                                                        <ItemsControl ItemsSource="{Binding DishAllergens}">
+                                                            <ItemsControl.ItemTemplate>
+                                                                <DataTemplate DataType="{x:Type models:DishAllergen}">
+                                                                    <TextBlock Text="{Binding Allergen.Name}" Style="{StaticResource ItemDetailStyle}" Margin="10,0,0,0"/>
+                                                                </DataTemplate>
+                                                            </ItemsControl.ItemTemplate>
+                                                        </ItemsControl>
+                                                    </StackPanel>
+                                                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
                                                         <Button Content="Add to Order" Style="{StaticResource AddToOrderButtonStyle}"/>
                                                         <Button Content="Edit"
                                                                 Command="{Binding DataContext.UpdateDishCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
@@ -145,7 +150,7 @@
                                                                 Margin="10,0,0,0"
                                                                 Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
                                                     </StackPanel>
-                                                </StackPanel>
+                                                </Grid>
                                             </Border>
                                         </DataTemplate>
                                     </ItemsControl.ItemTemplate>
@@ -161,46 +166,52 @@
                                     </ItemsControl.ItemsPanel>
                                     <ItemsControl.ItemTemplate>
                                         <DataTemplate DataType="{x:Type models:Menu}">
-                                            <Border Style="{StaticResource ItemBorderStyle}">
-                                                <StackPanel>
-                                                    <Image Height="120" Width="270" Stretch="UniformToFill" Margin="0,0,0,10" HorizontalAlignment="Center">
-                                                        <Image.Source>
-                                                            <MultiBinding Converter="{StaticResource FirstDishImagePathConverter}">
-                                                                <Binding Path="MenuDishes"/>
-                                                            </MultiBinding>
-                                                        </Image.Source>
-                                                    </Image>
-                                                    <TextBlock Text="{Binding Name}" Style="{StaticResource ItemNameStyle}"/>
-                                                    <TextBlock Text="{Binding Description}" Style="{StaticResource ItemDetailStyle}" TextWrapping="Wrap"/>
-                                                    <TextBlock Style="{StaticResource ItemDetailStyle}">
-                                                        <Run Text="Price: " FontWeight="SemiBold"/>
-                                                        <Run Text="{Binding ., Converter={StaticResource MenuPriceConverter}}"/>
-                                                    </TextBlock>
-                                                    <TextBlock Text="Contains:" FontWeight="SemiBold" Style="{StaticResource ItemDetailStyle}" Margin="0,5,0,0"/>
-                                                    <ItemsControl ItemsSource="{Binding MenuDishes}">
-                                                        <ItemsControl.ItemTemplate>
-                                                            <DataTemplate DataType="{x:Type models:MenuDish}">
-                                                                <TextBlock Style="{StaticResource ItemDetailStyle}" Margin="10,0,0,0">
-                                                                    <Run Text="{Binding Dish.Name}"/> (<Run Text="{Binding QuantityInMenu}"/><Run Text="{Binding Dish.Unit}"/>)
-                                                                </TextBlock>
-                                                            </DataTemplate>
-                                                        </ItemsControl.ItemTemplate>
-                                                    </ItemsControl>
-                                                    <TextBlock Text="Allergens:" FontWeight="SemiBold" Style="{StaticResource ItemDetailStyle}" Margin="0,5,0,0"/>
-                                                    <ItemsControl ItemsSource="{Binding MenuDishes}">
-                                                        <ItemsControl.ItemTemplate>
-                                                            <DataTemplate>
-                                                                <ItemsControl ItemsSource="{Binding Dish.DishAllergens}">
-                                                                    <ItemsControl.ItemTemplate>
-                                                                        <DataTemplate>
-                                                                            <TextBlock Text="{Binding Allergen.Name}" Style="{StaticResource ItemDetailStyle}" Margin="5,0,0,0"/>
-                                                                        </DataTemplate>
-                                                                    </ItemsControl.ItemTemplate>
-                                                                </ItemsControl>
-                                                            </DataTemplate>
-                                                        </ItemsControl.ItemTemplate>
-                                                    </ItemsControl>
-                                                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Border Style="{StaticResource ItemBorderStyle}" MinHeight="420">
+                                                <Grid>
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="*"/>
+                                                        <RowDefinition Height="Auto"/>
+                                                    </Grid.RowDefinitions>
+                                                    <StackPanel Grid.Row="0">
+                                                        <Image Height="120" Width="270" Stretch="UniformToFill" Margin="0,0,0,10" HorizontalAlignment="Center">
+                                                            <Image.Source>
+                                                                <MultiBinding Converter="{StaticResource FirstDishImagePathConverter}">
+                                                                    <Binding Path="MenuDishes"/>
+                                                                </MultiBinding>
+                                                            </Image.Source>
+                                                        </Image>
+                                                        <TextBlock Text="{Binding Name}" Style="{StaticResource ItemNameStyle}"/>
+                                                        <TextBlock Text="{Binding Description}" Style="{StaticResource ItemDetailStyle}" TextWrapping="Wrap"/>
+                                                        <TextBlock Style="{StaticResource ItemDetailStyle}">
+                                                            <Run Text="Price: " FontWeight="SemiBold"/>
+                                                            <Run Text="{Binding ., Converter={StaticResource MenuPriceConverter}}"/>
+                                                        </TextBlock>
+                                                        <TextBlock Text="Contains:" FontWeight="SemiBold" Style="{StaticResource ItemDetailStyle}" Margin="0,5,0,0"/>
+                                                        <ItemsControl ItemsSource="{Binding MenuDishes}">
+                                                            <ItemsControl.ItemTemplate>
+                                                                <DataTemplate DataType="{x:Type models:MenuDish}">
+                                                                    <TextBlock Style="{StaticResource ItemDetailStyle}" Margin="10,0,0,0">
+                                                                        <Run Text="{Binding Dish.Name}"/> (<Run Text="{Binding QuantityInMenu}"/><Run Text="{Binding Dish.Unit}"/>)
+                                                                    </TextBlock>
+                                                                </DataTemplate>
+                                                            </ItemsControl.ItemTemplate>
+                                                        </ItemsControl>
+                                                        <TextBlock Text="Allergens:" FontWeight="SemiBold" Style="{StaticResource ItemDetailStyle}" Margin="0,5,0,0"/>
+                                                        <ItemsControl ItemsSource="{Binding MenuDishes}">
+                                                            <ItemsControl.ItemTemplate>
+                                                                <DataTemplate>
+                                                                    <ItemsControl ItemsSource="{Binding Dish.DishAllergens}">
+                                                                        <ItemsControl.ItemTemplate>
+                                                                            <DataTemplate>
+                                                                                <TextBlock Text="{Binding Allergen.Name}" Style="{StaticResource ItemDetailStyle}" Margin="5,0,0,0"/>
+                                                                            </DataTemplate>
+                                                                        </ItemsControl.ItemTemplate>
+                                                                    </ItemsControl>
+                                                                </DataTemplate>
+                                                            </ItemsControl.ItemTemplate>
+                                                        </ItemsControl>
+                                                    </StackPanel>
+                                                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
                                                         <Button Content="Add to Order" Style="{StaticResource AddToOrderButtonStyle}"/>
                                                         <Button Content="Edit"
                                                                 Command="{Binding DataContext.UpdateMenuCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
@@ -217,7 +228,7 @@
                                                                 Margin="10,0,0,0"
                                                                 Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
                                                     </StackPanel>
-                                                </StackPanel>
+                                                </Grid>
                                             </Border>
                                         </DataTemplate>
                                     </ItemsControl.ItemTemplate>
