@@ -10,6 +10,7 @@ using OnlineRestaurantWpf.BusinessLogicLayer;
 using Microsoft.EntityFrameworkCore;
 using OnlineRestaurantWpf.Helpers;
 using Microsoft.Extensions.Logging;
+using OnlineRestaurantWpf.Converters;
 
 namespace OnlineRestaurantWpf
 {
@@ -27,6 +28,13 @@ namespace OnlineRestaurantWpf
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
             Configuration = builder.Build();
+
+            // Set global menu discount from config
+            var discountStr = Configuration["AppSettings:MenuDiscountPercentageX"];
+            if (decimal.TryParse(discountStr, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out var discount))
+            {
+                MenuPriceConverter.GlobalMenuDiscountPercentage = discount;
+            }
 
             var serviceCollection = new ServiceCollection();
             ConfigureServices(serviceCollection);

@@ -172,6 +172,10 @@
                                                     </Image>
                                                     <TextBlock Text="{Binding Name}" Style="{StaticResource ItemNameStyle}"/>
                                                     <TextBlock Text="{Binding Description}" Style="{StaticResource ItemDetailStyle}" TextWrapping="Wrap"/>
+                                                    <TextBlock Style="{StaticResource ItemDetailStyle}">
+                                                        <Run Text="Price: "/>
+                                                        <Run Text="{Binding ., Converter={StaticResource MenuPriceConverter}}"/>
+                                                    </TextBlock>
                                                     <TextBlock Text="Ingredients:" FontWeight="SemiBold" Style="{StaticResource ItemDetailStyle}" Margin="0,5,0,0"/>
                                                     <ItemsControl ItemsSource="{Binding MenuDishes}">
                                                         <ItemsControl.ItemTemplate>

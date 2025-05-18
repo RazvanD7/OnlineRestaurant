@@ -5,6 +5,7 @@ using OnlineRestaurantWpf.BusinessLogicLayer;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
+using System.ComponentModel;
 
 namespace OnlineRestaurantWpf.ViewModels
 {
@@ -26,6 +27,8 @@ namespace OnlineRestaurantWpf.ViewModels
         [ObservableProperty] private MenuDish selectedMenuDish;
         [ObservableProperty] private decimal selectedDishQuantity;
         [ObservableProperty] private ObservableCollection<Allergen> allergens = new();
+
+        public decimal MenuPrice => MenuDishes.Sum(md => (md.Dish?.Price ?? 0) * md.QuantityInMenu);
 
         public RelayCommand AddDishCommand { get; }
         public RelayCommand RemoveDishCommand { get; }
@@ -52,6 +55,8 @@ namespace OnlineRestaurantWpf.ViewModels
             RemoveDishCommand = new RelayCommand(RemoveDish);
             SaveCommand = new RelayCommand(Save);
             CancelCommand = new RelayCommand(Cancel);
+
+            MenuDishes.CollectionChanged += (s, e) => OnPropertyChanged(nameof(MenuPrice));
         }
 
         private async void LoadCategories()
