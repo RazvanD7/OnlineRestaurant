@@ -32,6 +32,7 @@ namespace OnlineRestaurantWpf.ViewModels
             _loginViewModel = loginViewModel;
             _loginViewModel.LoginSuccessful += OnLoginSuccessful;
             _loginViewModel.NavigateToRegisterRequested += OnNavigateToRegisterRequested;
+            _loginViewModel.NavigateToClientViewRequested += OnNavigateToClientViewRequested;
 
             _registerViewModel = registerViewModel;
             _registerViewModel.RegistrationSuccessful += OnRegistrationSuccessful;
@@ -90,6 +91,12 @@ namespace OnlineRestaurantWpf.ViewModels
         private void OnNavigateBackToLoginRequested()
         {
             CurrentViewModel = _loginViewModel;
+        }
+
+        private void OnNavigateToClientViewRequested()
+        {
+            CurrentViewModel = _clientMenuViewModel;
+            _clientMenuViewModel.LoadMenuDataCommand.Execute(null);
         }
     }
 }

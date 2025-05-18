@@ -27,6 +27,7 @@ namespace OnlineRestaurantWpf.ViewModels
 
         public event Action<User>? LoginSuccessful;
         public event Action? NavigateToRegisterRequested;
+        public event Action? NavigateToClientViewRequested;
 
 
         public LoginViewModel(UserBLL userBLL)
@@ -85,6 +86,12 @@ namespace OnlineRestaurantWpf.ViewModels
         private void NavigateToRegister()
         {
             NavigateToRegisterRequested?.Invoke();
+        }
+
+        [RelayCommand]
+        private void NavigateToClientView()
+        {
+            NavigateToClientViewRequested?.Invoke();
         }
     }
 }

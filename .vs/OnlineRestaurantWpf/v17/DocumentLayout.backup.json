@@ -3,6 +3,110 @@
   "WorkspaceRootPath": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\viewmodels\\clientmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\viewmodels\\clientmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\clientmenuview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\clientmenuview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\clientmenuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\clientmenuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\businesslogiclayer\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\businesslogiclayer\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\dishimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\dishimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\allergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\allergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\converters\\imagesourceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\converters\\imagesourceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\menudish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\menudish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\businesslogiclayer\\allergenbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\businesslogiclayer\\allergenbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,68 +123,12 @@
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\businesslogiclayer\\menubll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\businesslogiclayer\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\businesslogiclayer\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\converters\\imagesourceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\converters\\imagesourceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\menudish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\menudish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\dishallergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\dishallergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\clientmenuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\clientmenuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\viewmodels\\clientmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\viewmodels\\clientmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\dishimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\dishimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\businesslogiclayer\\orderbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\businesslogiclayer\\orderbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\razva\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -94,24 +142,12 @@
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\assets\\images\\beefsteak_main.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\clientmenuview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\clientmenuview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\data\\restaurantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\data\\restaurantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\onlinerestaurantwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -122,20 +158,12 @@
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\migrations\\restaurantdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,14 +174,6 @@
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\migrations\\20250515151142_reformeddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\helpers\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\helpers\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -162,28 +182,8 @@
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\migrations\\20250515145444_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\allergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\allergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|c:\\users\\razva\\desktop\\bakery\\onlinerestaurantwpf\\onlinerestaurantwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD41D999-97D5-4A51-BB60-4D9369659062}|OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj|solutionrelative:onlinerestaurantwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -193,167 +193,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dish.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Dish.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\Dish.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Dish.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\Dish.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:16:54.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MenuDish.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\MenuDish.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\MenuDish.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\MenuDish.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\MenuDish.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:18:07.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Menu.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\Menu.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Menu.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:17:52.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DishAllergen.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\DishAllergen.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\DishAllergen.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\DishAllergen.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\DishAllergen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:17:12.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserBLL.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\UserBLL.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\UserBLL.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\UserBLL.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\UserBLL.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAIwBUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:10:30.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuBLL.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\MenuBLL.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\MenuBLL.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\MenuBLL.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\MenuBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:12:21.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BooleanToVisibilityConverter.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Converters\\BooleanToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Converters\\BooleanToVisibilityConverter.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Converters\\BooleanToVisibilityConverter.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Converters\\BooleanToVisibilityConverter.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:26:36.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DishBLL.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\DishBLL.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\DishBLL.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\DishBLL.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\DishBLL.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:11:36.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryBLL.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\CategoryBLL.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\CategoryBLL.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\CategoryBLL.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\CategoryBLL.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:44:35.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\User.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\User.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\User.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:18:35.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AllergenBLL.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\AllergenBLL.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\AllergenBLL.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\AllergenBLL.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\AllergenBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:13:27.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImageSourceConverter.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Converters\\ImageSourceConverter.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Converters\\ImageSourceConverter.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Converters\\ImageSourceConverter.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Converters\\ImageSourceConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T10:39:24.684Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -361,7 +205,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\AssemblyInfo.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:12:09.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\App.xaml",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\App.xaml",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\App.xaml",
+              "RelativeToolTip": "OnlineRestaurantWpf\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T11:00:10.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Menu.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\Menu.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:17:52.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:25:08.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:26:02.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientMenuView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\ClientMenuView.xaml.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\ClientMenuView.xaml.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\ClientMenuView.xaml.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\ClientMenuView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T23:09:50.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:23:31.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\RegisterView.xaml.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\RegisterView.xaml.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\RegisterView.xaml.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\RegisterView.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:45:19.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientMenuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\ClientMenuViewModel.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\ViewModels\\ClientMenuViewModel.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\ClientMenuViewModel.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\ViewModels\\ClientMenuViewModel.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAgwLgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T23:10:19.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ClientMenuView.xaml",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\ClientMenuView.xaml",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\ClientMenuView.xaml",
@@ -373,15 +333,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ClientMenuViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\ClientMenuViewModel.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\ViewModels\\ClientMenuViewModel.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\ClientMenuViewModel.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\ViewModels\\ClientMenuViewModel.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAQwLgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Dish.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\Dish.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Dish.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\Dish.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T23:10:19.979Z",
+              "WhenOpened": "2025-05-13T16:16:54.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Allergen.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Allergen.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\Allergen.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Allergen.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\Allergen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:16:18.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\User.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:18:35.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Category.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:15:48.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\OrderItem.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:19:19.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\App.xaml.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\App.xaml.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\App.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:48:19.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:24:25.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\LoginView.xaml",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T12:25:05.36Z",
               "EditorCaption": ""
             },
             {
@@ -399,7 +449,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\UserBLL.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\UserBLL.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\UserBLL.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\UserBLL.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAvwE8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:10:30.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T12:22:58.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Order.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\Order.cs",
@@ -412,20 +487,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\OrderItem.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\OrderItem.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "MenuDish.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\MenuDish.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\MenuDish.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\MenuDish.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\MenuDish.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:19:19.622Z",
+              "WhenOpened": "2025-05-13T16:18:07.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Converters\\BooleanToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Converters\\BooleanToVisibilityConverter.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:26:36.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ImageSourceConverter.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Converters\\ImageSourceConverter.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Converters\\ImageSourceConverter.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Converters\\ImageSourceConverter.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Converters\\ImageSourceConverter.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T10:39:24.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "InverseBooleanConverter.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Converters\\InverseBooleanConverter.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Converters\\InverseBooleanConverter.cs",
@@ -438,7 +539,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
+              "Title": "AllergenBLL.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\AllergenBLL.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\AllergenBLL.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\AllergenBLL.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\AllergenBLL.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:13:27.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryBLL.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\CategoryBLL.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\CategoryBLL.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\CategoryBLL.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\CategoryBLL.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:44:35.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DishBLL.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\DishBLL.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\DishBLL.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\DishBLL.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\DishBLL.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:11:36.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MenuBLL.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\MenuBLL.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\MenuBLL.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\MenuBLL.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\BusinessLogicLayer\\MenuBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:12:21.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DishAllergen.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\DishAllergen.cs",
+              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\DishAllergen.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\DishAllergen.cs",
+              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\DishAllergen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:17:12.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "OrderBLL.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\BusinessLogicLayer\\OrderBLL.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\BusinessLogicLayer\\OrderBLL.cs",
@@ -451,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 35,
               "Title": "RestaurantDbContext.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Data\\RestaurantDbContext.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Data\\RestaurantDbContext.cs",
@@ -464,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 36,
               "Title": "DesignTimeDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Data\\DesignTimeDbContextFactory.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Data\\DesignTimeDbContextFactory.cs",
@@ -477,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\razva\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
@@ -490,19 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\LoginView.xaml",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\LoginView.xaml",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\LoginView.xaml",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\LoginView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-14T12:25:05.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "RestaurantDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Migrations\\RestaurantDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Migrations\\RestaurantDbContextModelSnapshot.cs",
@@ -514,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "beefsteak_main.jpg",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Assets\\Images\\beefsteak_main.jpg",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Assets\\Images\\beefsteak_main.jpg",
@@ -526,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 33,
               "Title": "bruschetta_alt1.jpg",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Assets\\Images\\bruschetta_alt1.jpg",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Assets\\Images\\bruschetta_alt1.jpg",
@@ -538,20 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ClientMenuView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\ClientMenuView.xaml.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\ClientMenuView.xaml.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\ClientMenuView.xaml.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\ClientMenuView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T23:09:50.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "20250515145444_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Migrations\\20250515145444_InitialCreate.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Migrations\\20250515145444_InitialCreate.cs",
@@ -563,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "20250515151142_ReformedDataBase.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Migrations\\20250515151142_ReformedDataBase.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Migrations\\20250515151142_ReformedDataBase.cs",
@@ -575,19 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "RegisterView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\RegisterView.xaml.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\RegisterView.xaml.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\RegisterView.xaml.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\RegisterView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:45:19.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "RegisterView.xaml",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\RegisterView.xaml",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\RegisterView.xaml",
@@ -598,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\ViewModels\\RegisterViewModel.cs",
@@ -610,80 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwFkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:26:02.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\LoginView.xaml.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\LoginView.xaml.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\LoginView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:25:08.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAACEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:24:25.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:23:31.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-14T12:22:58.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\App.xaml.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\App.xaml.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:48:19.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "ConfigHelper.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Helpers\\ConfigHelper.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Helpers\\ConfigHelper.cs",
@@ -695,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Helpers\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Helpers\\PasswordHasher.cs",
@@ -707,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "OnlineRestaurantWpf.csproj",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\OnlineRestaurantWpf.csproj",
@@ -720,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\appsettings.json",
               "RelativeDocumentMoniker": "OnlineRestaurantWpf\\appsettings.json",
@@ -729,55 +785,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-13T16:22:02.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Allergen.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Allergen.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\Allergen.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Allergen.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\Allergen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:16:18.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\Models\\Category.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:15:48.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\AssemblyInfo.cs",
-              "RelativeToolTip": "OnlineRestaurantWpf\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:12:09.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\App.xaml",
-              "RelativeDocumentMoniker": "OnlineRestaurantWpf\\App.xaml",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Bakery\\OnlineRestaurantWpf\\OnlineRestaurantWpf\\App.xaml",
-              "RelativeToolTip": "OnlineRestaurantWpf\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-13T11:00:10.23Z",
               "EditorCaption": ""
             }
           ]
