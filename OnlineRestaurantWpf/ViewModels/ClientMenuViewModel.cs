@@ -32,6 +32,7 @@ namespace OnlineRestaurantWpf.ViewModels
         private readonly CategoryBLL _categoryBLL;
         private readonly DishBLL _dishBLL;
         private readonly MenuBLL _menuBLL;
+        private readonly AllergenBLL _allergenBLL;
 
         [ObservableProperty]
         private ObservableCollection<DisplayCategory> _menuCategories = new();
@@ -54,11 +55,12 @@ namespace OnlineRestaurantWpf.ViewModels
         [ObservableProperty]
         private bool _isAdmin;
 
-        public ClientMenuViewModel(CategoryBLL categoryBLL, DishBLL dishBLL, MenuBLL menuBLL)
+        public ClientMenuViewModel(CategoryBLL categoryBLL, DishBLL dishBLL, MenuBLL menuBLL, AllergenBLL allergenBLL)
         {
             _categoryBLL = categoryBLL;
             _dishBLL = dishBLL;
             _menuBLL = menuBLL;
+            _allergenBLL = allergenBLL;
         }
 
         public void SetUserRole(string role)
@@ -244,7 +246,7 @@ namespace OnlineRestaurantWpf.ViewModels
         private void UpdateDish(Dish dish)
         {
             if (dish == null) return;
-            var editWindow = new Views.EditDishWindow { DataContext = new ViewModels.EditDishViewModel(dish, _dishBLL, _categoryBLL) };
+            var editWindow = new Views.EditDishWindow { DataContext = new ViewModels.EditDishViewModel(dish, _dishBLL, _categoryBLL, _allergenBLL) };
             editWindow.ShowDialog();
             LoadMenuDataCommand.Execute(null); // Refresh after editing
         }

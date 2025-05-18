@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineRestaurantWpf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d13e87bd22a5ed85f1dd8998e683e10cdcaa0a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77741352ec4b0c3d6b4313ae4f3fd4defeafb4e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineRestaurantWpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineRestaurantWpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

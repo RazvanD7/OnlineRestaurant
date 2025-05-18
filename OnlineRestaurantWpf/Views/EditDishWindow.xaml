@@ -1,30 +1,63 @@
 ﻿<Window x:Class="OnlineRestaurantWpf.Views.EditDishWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Edit Dish" Height="400" Width="400" WindowStartupLocation="CenterOwner">
+        Title="Edit Dish" Height="750" Width="800" WindowStartupLocation="CenterOwner">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <StackPanel>
-            <TextBlock Text="Edit Dish" FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
-            <TextBlock Text="Name:"/>
-            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
-            <TextBlock Text="Description:"/>
-            <TextBox Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
-            <TextBlock Text="Price:"/>
-            <TextBox Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
-            <TextBlock Text="Portion Quantity:"/>
-            <TextBox Text="{Binding PortionQuantity, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
-            <TextBlock Text="Unit:"/>
-            <TextBox Text="{Binding Unit, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
-            <TextBlock Text="Category:"/>
-            <ComboBox ItemsSource="{Binding AvailableCategories}"
-                      SelectedItem="{Binding SelectedCategory}"
-                      DisplayMemberPath="Name"
-                      Margin="0,0,0,10"/>
-        </StackPanel>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock Text="Edit Dish" FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
+                <TextBlock Text="Name:"/>
+                <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+                <TextBlock Text="Description:"/>
+                <TextBox Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+                <TextBlock Text="Price:"/>
+                <TextBox Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+                <TextBlock Text="Portion Quantity:"/>
+                <TextBox Text="{Binding PortionQuantity, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+                <TextBlock Text="Unit:"/>
+                <TextBox Text="{Binding Unit, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+                <TextBlock Text="Category:"/>
+                <ComboBox ItemsSource="{Binding AvailableCategories}"
+                          SelectedItem="{Binding SelectedCategory}"
+                          DisplayMemberPath="Name"
+                          Margin="0,0,0,10"/>
+
+                <!-- Allergens Section -->
+                <TextBlock Text="Allergens:" FontWeight="Bold" Margin="0,10,0,0"/>
+                <StackPanel Orientation="Horizontal">
+                    <ComboBox ItemsSource="{Binding AvailableAllergens}"
+                              SelectedItem="{Binding SelectedAllergen}"
+                              DisplayMemberPath="Name" Width="150"/>
+                    <Button Content="Add" Command="{Binding AddAllergenCommand}" Margin="5,0,0,0"/>
+                </StackPanel>
+                <ListBox ItemsSource="{Binding SelectedAllergens}" 
+                         DisplayMemberPath="Name" Height="100"
+                         SelectedItem="{Binding SelectedAllergen, Mode=TwoWay}"/>
+                <Button Content="Remove Selected Allergen" Command="{Binding RemoveAllergenCommand}" Margin="0,5,0,0"/>
+
+                <!-- Images Section -->
+                <TextBlock Text="Images:" FontWeight="Bold" Margin="0,10,0,0"/>
+                <ListBox ItemsSource="{Binding Images}" SelectedItem="{Binding SelectedImage}" Height="120">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="{Binding ImagePath}" Height="40" Width="40" Margin="0,0,5,0"/>
+                                <TextBlock Text="{Binding ImagePath}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+                <StackPanel Orientation="Horizontal">
+                    <TextBox Text="{Binding NewImagePath}" Width="200" Margin="0,0,5,0"/>
+                    <Button Content="Add Image" Command="{Binding AddImageCommand}"/>
+                    <Button Content="Remove Selected Image" Command="{Binding RemoveImageCommand}" Margin="5,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
             <Button Content="Save" Width="80" Margin="0,0,10,0" Command="{Binding SaveCommand}"/>
             <Button Content="Cancel" Width="80" Command="{Binding CancelCommand}"/>
