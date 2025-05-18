@@ -51,11 +51,69 @@ namespace OnlineRestaurantWpf.ViewModels
         [ObservableProperty]
         private bool _excludeAllergen;
 
+        [ObservableProperty]
+        private bool _isAdmin;
+
         public ClientMenuViewModel(CategoryBLL categoryBLL, DishBLL dishBLL, MenuBLL menuBLL)
         {
             _categoryBLL = categoryBLL;
             _dishBLL = dishBLL;
             _menuBLL = menuBLL;
+        }
+
+        public void SetUserRole(string role)
+        {
+            IsAdmin = role?.ToLower() == "admin";
+        }
+
+        [RelayCommand]
+        private async Task DeleteDishAsync(Dish dish)
+        {
+            if (dish == null) return;
+
+            var result = MessageBox.Show(
+                $"Are you sure you want to delete the dish '{dish.Name}'?",
+                "Confirm Delete",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Warning);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    await _dishBLL.DeleteDishAsync(dish.Id);
+                    await LoadMenuDataAsync(); // Reload the menu data
+                }
+                catch (Exception ex)
+                {
+                    ErrorMessage = $"Error deleting dish: {ex.Message}";
+                }
+            }
+        }
+
+        [RelayCommand]
+        private async Task DeleteMenuAsync(Menu menu)
+        {
+            if (menu == null) return;
+
+            var result = MessageBox.Show(
+                $"Are you sure you want to delete the menu '{menu.Name}'?",
+                "Confirm Delete",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Warning);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    await _menuBLL.DeleteMenuAsync(menu.Id);
+                    await LoadMenuDataAsync(); // Reload the menu data
+                }
+                catch (Exception ex)
+                {
+                    ErrorMessage = $"Error deleting menu: {ex.Message}";
+                }
+            }
         }
 
         [RelayCommand]
@@ -181,5 +239,23 @@ namespace OnlineRestaurantWpf.ViewModels
                 IsLoading = false;
             }
         }
+
+        [RelayCommand]
+        private void UpdateDish(Dish dish)
+        {
+            if (dish == null) return;
+            var editWindow = new Views.EditDishWindow { DataContext = new ViewModels.EditDishViewModel(dish, _dishBLL, _categoryBLL) };
+            editWindow.ShowDialog();
+            LoadMenuDataCommand.Execute(null); // Refresh after editing
+        }
+
+        //[RelayCommand]
+        //private void UpdateMenu(Menu menu)
+        //{
+        //    if (menu == null) return;
+        //    var editWindow = new Views.EditMenuWindow { DataContext = new ViewModels.EditMenuViewModel(menu) };
+        //    editWindow.ShowDialog();
+        //    LoadMenuDataCommand.Execute(null); // Refresh after editing
+        //}
     }
 }

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\App.xaml
-4-507314128
+5-1871390589
 
-39-1176541592
+41-1958697172
 2491921895834
-Views\ClientMenuView.xaml;Views\LoginView.xaml;Views\MainWindow.xaml;Views\RegisterView.xaml;
+Views\ClientMenuView.xaml;Views\EditDishWindow.xaml;Views\LoginView.xaml;Views\MainWindow.xaml;Views\RegisterView.xaml;
 
 False
 

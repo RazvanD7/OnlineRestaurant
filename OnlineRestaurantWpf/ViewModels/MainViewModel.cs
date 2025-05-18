@@ -53,16 +53,14 @@ namespace OnlineRestaurantWpf.ViewModels
             switch (user.Role?.ToLower())
             {
                 case "admin":
-                case "employee":
-                    // CurrentViewModel = _adminDashboardViewModel; 
-                    // _adminDashboardViewModel.LoadAdminDataCommand.Execute(null); 
-                    // For now, fallback to login if Admin/Employee views are not ready
-                    System.Windows.MessageBox.Show("Admin/Employee dashboard not yet implemented. Logging out.", "Not Implemented", MessageBoxButton.OK, MessageBoxImage.Information);
-                    Logout();
-                    break;
                 case "client":
                     CurrentViewModel = _clientMenuViewModel;
+                    _clientMenuViewModel.SetUserRole(user.Role);
                     _clientMenuViewModel.LoadMenuDataCommand.Execute(null); // Load menu data
+                    break;
+                case "employee":
+                    System.Windows.MessageBox.Show("Employee dashboard not yet implemented. Logging out.", "Not Implemented", MessageBoxButton.OK, MessageBoxImage.Information);
+                    Logout();
                     break;
                 default:
                     CurrentViewModel = _loginViewModel;
