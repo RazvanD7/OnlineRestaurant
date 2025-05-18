@@ -131,6 +131,7 @@ C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\EditDishWindow.baml
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\ClientMenuView.g.cs
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\EditDishWindow.g.cs
+C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\EditMenuWindow.g.cs
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\LoginView.g.cs
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\RegisterView.g.cs
@@ -140,6 +141,7 @@ C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\OnlineRestaurantWpf_MarkupCompile.lref
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\App.baml
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\ClientMenuView.baml
+C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\EditMenuWindow.baml
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\LoginView.baml
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\MainWindow.baml
 C:\Users\razva\Desktop\Bakery\OnlineRestaurantWpf\OnlineRestaurantWpf\obj\Debug\net8.0-windows\Views\RegisterView.baml

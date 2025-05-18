@@ -251,13 +251,13 @@ namespace OnlineRestaurantWpf.ViewModels
             LoadMenuDataCommand.Execute(null); // Refresh after editing
         }
 
-        //[RelayCommand]
-        //private void UpdateMenu(Menu menu)
-        //{
-        //    if (menu == null) return;
-        //    var editWindow = new Views.EditMenuWindow { DataContext = new ViewModels.EditMenuViewModel(menu) };
-        //    editWindow.ShowDialog();
-        //    LoadMenuDataCommand.Execute(null); // Refresh after editing
-        //}
+        [RelayCommand]
+        private void UpdateMenu(Menu menu)
+        {
+            if (menu == null) return;
+            var editWindow = new Views.EditMenuWindow { DataContext = new ViewModels.EditMenuViewModel(menu, _menuBLL, _categoryBLL, _dishBLL, _allergenBLL) };
+            editWindow.ShowDialog();
+            LoadMenuDataCommand.Execute(null); // Refresh after editing
+        }
     }
 }
