@@ -192,7 +192,6 @@ namespace OnlineRestaurantWpf.ViewModels
 
                     if (SearchByName)
                     {
-                        // Search by name
                         categoryDishes = categoryDishes.Where(d => 
                             d.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase));
                         
@@ -203,7 +202,6 @@ namespace OnlineRestaurantWpf.ViewModels
                     }
                     else if (ExcludeAllergen)
                     {
-                        // Exclude dishes and menus containing the allergen
                         categoryDishes = categoryDishes.Where(d => 
                             !d.DishAllergens.Any(da => 
                                 da.Allergen.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase)));

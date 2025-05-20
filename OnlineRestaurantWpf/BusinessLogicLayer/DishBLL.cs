@@ -118,30 +118,5 @@ namespace OnlineRestaurantWpf.BusinessLogicLayer
             context.Dishes.Remove(dish);
             await context.SaveChangesAsync();
         }
-
-        public async Task UpdateStockAsync(int dishId, decimal quantityOrderedInPortions)
-        {
-            using var context = _dbContextFactory();
-            var dish = await context.Dishes.FindAsync(dishId);
-            if (dish == null)
-                throw new KeyNotFoundException($"Dish with ID {dishId} not found.");
-
-            // Calculate total amount ordered based on portion size
-            decimal totalAmountToDeduct = quantityOrderedInPortions * dish.PortionQuantity;
-
-            Debug.WriteLine($"[DishBLL.UpdateStockAsync] Dish: {dish.Name}, Current Stock: {dish.TotalQuantity} {dish.Unit}, Portions Ordered: {quantityOrderedInPortions}, Portion Size: {dish.PortionQuantity} {dish.Unit}, Amount to Deduct: {totalAmountToDeduct} {dish.Unit}");
-
-            dish.TotalQuantity -= totalAmountToDeduct;
-
-            if (dish.TotalQuantity < 0)
-            {
-                Debug.WriteLine($"[DishBLL.UpdateStockAsync] Warning: Stock for {dish.Name} went negative ({dish.TotalQuantity}), setting to 0.");
-                dish.TotalQuantity = 0;
-            }
-            dish.IsAvailable = dish.TotalQuantity > 0; // Or dish.TotalQuantity >= dish.PortionQuantity for at least one more portion
-
-            Debug.WriteLine($"[DishBLL.UpdateStockAsync] New Stock for {dish.Name}: {dish.TotalQuantity} {dish.Unit}, IsAvailable: {dish.IsAvailable}");
-            await context.SaveChangesAsync();
-        }
     }
 }

@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Windows.Media.Imaging;
 
 namespace OnlineRestaurantWpf.BusinessLogicLayer
 {
@@ -20,10 +21,30 @@ namespace OnlineRestaurantWpf.BusinessLogicLayer
             _configHelper = configHelper;
         }
 
+        public string GetFirstDishImagePath(Menu menu)
+        {
+            if (menu?.MenuDishes == null || !menu.MenuDishes.Any())
+                return "pack://application:,,,/Assets/Images/placeholder.png";
+
+            foreach (var menuDish in menu.MenuDishes)
+            {
+                if (menuDish.Dish?.Images != null)
+                {
+                    var firstImage = menuDish.Dish.Images.FirstOrDefault();
+                    if (firstImage != null && !string.IsNullOrWhiteSpace(firstImage.ImagePath))
+                    {
+                        return firstImage.ImagePath;
+                    }
+                }
+            }
+
+            return "pack://application:,,,/Assets/Images/placeholder.png";
+        }
+
         public async Task<List<Menu>> GetAllMenusAsync()
         {
             using var context = _dbContextFactory();
-            return await context.Menus
+            var menus = await context.Menus
                 .Include(m => m.Category)
                 .Include(m => m.MenuDishes)
                     .ThenInclude(md => md.Dish)
@@ -34,6 +55,14 @@ namespace OnlineRestaurantWpf.BusinessLogicLayer
                             .ThenInclude(da => da.Allergen)
                 .OrderBy(m => m.Name)
                 .ToListAsync();
+
+            // Set image paths for each menu
+            foreach (var menu in menus)
+            {
+                menu.FirstDishImagePath = GetFirstDishImagePath(menu);
+            }
+
+            return menus;
         }
 
         public async Task<Menu?> GetMenuByIdAsync(int menuId)

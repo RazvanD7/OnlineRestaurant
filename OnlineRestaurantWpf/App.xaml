@@ -11,7 +11,6 @@
             </ResourceDictionary.MergedDictionaries>
 
             <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
-            <converters:FirstDishImagePathConverter x:Key="FirstDishImagePathConverter"/>
             <converters:MenuPriceConverter x:Key="MenuPriceConverter"/>
 
             <DataTemplate DataType="{x:Type viewmodels:LoginViewModel}">

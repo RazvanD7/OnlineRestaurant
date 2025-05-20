@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineRestaurantWpf.Models
 {
@@ -17,6 +18,9 @@ namespace OnlineRestaurantWpf.Models
         public Category Category { get; set; }
 
         public ICollection<MenuDish> MenuDishes { get; set; }
+
+        [NotMapped]
+        public string FirstDishImagePath { get; set; }
 
         public Menu()
         {

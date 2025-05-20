@@ -13,6 +13,7 @@
     <UserControl.Resources>
         <converters:BooleanToVisibilityConverter x:Key="LocalBooleanToVisibilityConverter"/>
         <converters:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+        <converters:ImagePathConverter x:Key="ImagePathConverter"/>
         <Style TargetType="TextBlock" x:Key="CategoryHeaderStyle">
             <Setter Property="FontSize" Value="24"/>
             <Setter Property="FontWeight" Value="Bold"/>
@@ -174,9 +175,7 @@
                                                     <StackPanel Grid.Row="0">
                                                         <Image Height="120" Width="270" Stretch="UniformToFill" Margin="0,0,0,10" HorizontalAlignment="Center">
                                                             <Image.Source>
-                                                                <MultiBinding Converter="{StaticResource FirstDishImagePathConverter}">
-                                                                    <Binding Path="MenuDishes"/>
-                                                                </MultiBinding>
+                                                                <Binding Path="FirstDishImagePath" Converter="{StaticResource ImagePathConverter}"/>
                                                             </Image.Source>
                                                         </Image>
                                                         <TextBlock Text="{Binding Name}" Style="{StaticResource ItemNameStyle}"/>
