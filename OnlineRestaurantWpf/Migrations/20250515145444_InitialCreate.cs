@@ -90,7 +90,6 @@ namespace OnlineRestaurantWpf.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DiscountPercentage = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsAvailable = table.Column<bool>(type: "bit", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false)
@@ -102,34 +101,6 @@ namespace OnlineRestaurantWpf.Migrations
                         name: "FK_Menus_Categories_CategoryId",
                         column: x => x.CategoryId,
                         principalTable: "Categories",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Orders",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    OrderCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    EstimatedDeliveryTime = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    ProductsCost = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    AppliedDiscount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    ShippingCost = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    TotalCost = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    DeliveryAddressForOrder = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Orders", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Orders_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -204,42 +175,6 @@ namespace OnlineRestaurantWpf.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "OrderItems",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Quantity = table.Column<int>(type: "int", nullable: false),
-                    UnitPriceAtOrder = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Subtotal = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    OrderId = table.Column<int>(type: "int", nullable: false),
-                    DishId = table.Column<int>(type: "int", nullable: true),
-                    MenuId = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_OrderItems", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_OrderItems_Dishes_DishId",
-                        column: x => x.DishId,
-                        principalTable: "Dishes",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_OrderItems_Menus_MenuId",
-                        column: x => x.MenuId,
-                        principalTable: "Menus",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_OrderItems_Orders_OrderId",
-                        column: x => x.OrderId,
-                        principalTable: "Orders",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_Allergens_Name",
                 table: "Allergens",
@@ -278,26 +213,6 @@ namespace OnlineRestaurantWpf.Migrations
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_OrderItems_DishId",
-                table: "OrderItems",
-                column: "DishId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_OrderItems_MenuId",
-                table: "OrderItems",
-                column: "MenuId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_OrderItems_OrderId",
-                table: "OrderItems",
-                column: "OrderId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Orders_UserId",
-                table: "Orders",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Users_Email",
                 table: "Users",
                 column: "Email",
@@ -317,9 +232,6 @@ namespace OnlineRestaurantWpf.Migrations
                 name: "MenuDishes");
 
             migrationBuilder.DropTable(
-                name: "OrderItems");
-
-            migrationBuilder.DropTable(
                 name: "Allergens");
 
             migrationBuilder.DropTable(
@@ -327,9 +239,6 @@ namespace OnlineRestaurantWpf.Migrations
 
             migrationBuilder.DropTable(
                 name: "Menus");
-
-            migrationBuilder.DropTable(
-                name: "Orders");
 
             migrationBuilder.DropTable(
                 name: "Categories");

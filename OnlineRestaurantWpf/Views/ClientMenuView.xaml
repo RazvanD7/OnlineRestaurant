@@ -109,7 +109,7 @@
                                                         <Image Style="{StaticResource DishImageStyle}" 
                                                                Visibility="{Binding Images.Count, Converter={StaticResource LocalBooleanToVisibilityConverter}, ConverterParameter=GreaterThanZero}">
                                                             <Image.Source>
-                                                                <Binding Path="Images[0].ImagePath" TargetNullValue="/Assets/Images/placeholder.png"/>
+                                                                <Binding Path="Images[0].ImagePath"/>
                                                             </Image.Source>
                                                         </Image>
                                                         <TextBlock Text="{Binding Name}" Style="{StaticResource ItemNameStyle}"/>
@@ -134,13 +134,12 @@
                                                         </ItemsControl>
                                                     </StackPanel>
                                                     <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
-                                                        <Button Content="Add to Order" Style="{StaticResource AddToOrderButtonStyle}"/>
                                                         <Button Content="Edit"
                                                                 Command="{Binding DataContext.UpdateDishCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
                                                                 CommandParameter="{Binding}"
                                                                 Style="{StaticResource AddToOrderButtonStyle}"
                                                                 Background="Orange"
-                                                                Margin="10,0,0,0"
+                                                                Margin="0,0,0,0"
                                                                 Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
                                                         <Button Content="Delete" 
                                                                 Command="{Binding DataContext.DeleteDishCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
@@ -212,13 +211,12 @@
                                                         </ItemsControl>
                                                     </StackPanel>
                                                     <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
-                                                        <Button Content="Add to Order" Style="{StaticResource AddToOrderButtonStyle}"/>
                                                         <Button Content="Edit"
                                                                 Command="{Binding DataContext.UpdateMenuCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
                                                                 CommandParameter="{Binding}"
                                                                 Style="{StaticResource AddToOrderButtonStyle}"
                                                                 Background="Orange"
-                                                                Margin="10,0,0,0"
+                                                                Margin="0,0,0,0"
                                                                 Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource BooleanToVisibilityConverter}}"/>
                                                         <Button Content="Delete" 
                                                                 Command="{Binding DataContext.DeleteMenuCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"

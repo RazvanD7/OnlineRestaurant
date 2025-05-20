@@ -35,7 +35,7 @@ namespace OnlineRestaurantWpf.Models
             Images = new List<DishImage>();
             MenuDishes = new HashSet<MenuDish>();
             IsAvailable = true;
-            Unit = "g"; // Default unit, can be changed
+            Unit = "g";
         }
     }
 }

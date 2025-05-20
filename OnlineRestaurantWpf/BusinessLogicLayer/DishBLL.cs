@@ -54,48 +54,6 @@ namespace OnlineRestaurantWpf.BusinessLogicLayer
                 .FirstOrDefaultAsync(d => d.Id == dishId);
         }
 
-        public async Task<Dish> AddDishAsync(Dish dish, List<int>? allergenIds = null, List<string>? imagePaths = null)
-        {
-            if (dish == null) throw new ArgumentNullException(nameof(dish));
-            if (string.IsNullOrWhiteSpace(dish.Unit)) throw new ArgumentException("Dish unit cannot be empty.", nameof(dish.Unit));
-
-            using var context = _dbContextFactory();
-            var categoryExists = await context.Categories.AnyAsync(c => c.Id == dish.CategoryId);
-            if (!categoryExists)
-                throw new InvalidOperationException($"Category with ID {dish.CategoryId} does not exist.");
-
-            if (allergenIds != null && allergenIds.Any())
-            {
-                dish.DishAllergens = new List<DishAllergen>();
-                foreach (var allergenId in allergenIds)
-                {
-                    var allergenExists = await context.Allergens.AnyAsync(a => a.Id == allergenId);
-                    if (!allergenExists)
-                        throw new InvalidOperationException($"Allergen with ID {allergenId} does not exist.");
-                    dish.DishAllergens.Add(new DishAllergen { AllergenId = allergenId });
-                }
-            }
-
-            if (imagePaths != null && imagePaths.Any())
-            {
-                dish.Images = new List<DishImage>();
-                bool isFirstImage = true;
-                foreach (var path in imagePaths)
-                {
-                    if (!string.IsNullOrWhiteSpace(path))
-                    {
-                        dish.Images.Add(new DishImage { ImagePath = path, IsMain = isFirstImage });
-                        isFirstImage = false;
-                    }
-                }
-            }
-
-            dish.IsAvailable = dish.TotalQuantity > 0;
-
-            context.Dishes.Add(dish);
-            await context.SaveChangesAsync();
-            return dish;
-        }
 
         public async Task<Dish> UpdateDishAsync(Dish dish, List<int>? allergenIds = null, List<string>? imagePaths = null)
         {

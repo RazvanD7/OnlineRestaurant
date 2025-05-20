@@ -12,6 +12,5 @@ namespace OnlineRestaurantWpf.Models
 
         [Column(TypeName = "decimal(10,2)")]
         public decimal QuantityInMenu { get; set; }
-        // The unit is implicitly the 'Unit' of the associated Dish.
     }
 }

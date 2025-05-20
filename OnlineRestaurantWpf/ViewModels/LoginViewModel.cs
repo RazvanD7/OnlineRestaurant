@@ -35,12 +35,6 @@ namespace OnlineRestaurantWpf.ViewModels
             _userBLL = userBLL;
         }
 
-        private bool CanLogin()
-        {
-            return !string.IsNullOrWhiteSpace(Email) &&
-                   (SecurePassword != null && SecurePassword.Length > 0) &&
-                   !IsLoginInProgress;
-        }
 
         [RelayCommand]
         private async Task LoginAsync()
@@ -83,15 +77,15 @@ namespace OnlineRestaurantWpf.ViewModels
         }
 
         [RelayCommand]
-        private void NavigateToRegister()
-        {
-            NavigateToRegisterRequested?.Invoke();
-        }
-
-        [RelayCommand]
         private void NavigateToClientView()
         {
             NavigateToClientViewRequested?.Invoke();
+        }
+
+        [RelayCommand]
+        private void NavigateToRegister()
+        {
+            NavigateToRegisterRequested?.Invoke();
         }
     }
 }

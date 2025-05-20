@@ -1,10 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using OnlineRestaurantWpf.Models;
-using System;
-using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
-using System.Windows; // For App.ServiceProvider
 
 namespace OnlineRestaurantWpf.ViewModels
 {
@@ -21,13 +17,11 @@ namespace OnlineRestaurantWpf.ViewModels
 
         private readonly LoginViewModel _loginViewModel;
         private readonly RegisterViewModel _registerViewModel;
-        private readonly ClientMenuViewModel _clientMenuViewModel; // Added
-                                                                   // private readonly AdminDashboardViewModel _adminDashboardViewModel; 
-
+        private readonly ClientMenuViewModel _clientMenuViewModel;
 
         public MainViewModel(LoginViewModel loginViewModel,
                              RegisterViewModel registerViewModel,
-                             ClientMenuViewModel clientMenuViewModel /*, AdminDashboardViewModel adminVM */)
+                             ClientMenuViewModel clientMenuViewModel)
         {
             _loginViewModel = loginViewModel;
             _loginViewModel.LoginSuccessful += OnLoginSuccessful;
@@ -38,8 +32,7 @@ namespace OnlineRestaurantWpf.ViewModels
             _registerViewModel.RegistrationSuccessful += OnRegistrationSuccessful;
             _registerViewModel.NavigateBackToLoginRequested += OnNavigateBackToLoginRequested;
 
-            _clientMenuViewModel = clientMenuViewModel; // Store injected instance
-                                                        // _adminDashboardViewModel = adminVM;
+            _clientMenuViewModel = clientMenuViewModel;
 
             CurrentViewModel = _loginViewModel;
             IsUserLoggedIn = false;
@@ -49,23 +42,10 @@ namespace OnlineRestaurantWpf.ViewModels
         {
             LoggedInUserDisplayName = $"{user.FirstName} {user.LastName} ({user.Role})";
             IsUserLoggedIn = true;
-
-            switch (user.Role?.ToLower())
-            {
-                case "admin":
-                case "client":
-                    CurrentViewModel = _clientMenuViewModel;
-                    _clientMenuViewModel.SetUserRole(user.Role);
-                    _clientMenuViewModel.LoadMenuDataCommand.Execute(null); // Load menu data
-                    break;
-                case "employee":
-                    System.Windows.MessageBox.Show("Employee dashboard not yet implemented. Logging out.", "Not Implemented", MessageBoxButton.OK, MessageBoxImage.Information);
-                    Logout();
-                    break;
-                default:
-                    CurrentViewModel = _loginViewModel;
-                    break;
-            }
+            CurrentViewModel = _clientMenuViewModel;
+            _clientMenuViewModel.SetUserRole(user.Role);
+            _clientMenuViewModel.LoadMenuDataCommand.Execute(null);
+      
         }
 
         [RelayCommand]
@@ -94,6 +74,8 @@ namespace OnlineRestaurantWpf.ViewModels
 
         private void OnNavigateToClientViewRequested()
         {
+            LoggedInUserDisplayName = "No User";
+            IsUserLoggedIn = true;
             CurrentViewModel = _clientMenuViewModel;
             _clientMenuViewModel.SetUserRole(null);
             _clientMenuViewModel.LoadMenuDataCommand.Execute(null);

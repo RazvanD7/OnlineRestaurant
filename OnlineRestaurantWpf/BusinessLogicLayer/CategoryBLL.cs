@@ -29,21 +29,6 @@ namespace OnlineRestaurantWpf.BusinessLogicLayer
             return await context.Categories.FindAsync(categoryId);
         }
 
-        public async Task<Category> AddCategoryAsync(Category category)
-        {
-            if (category == null) throw new ArgumentNullException(nameof(category));
-            if (string.IsNullOrWhiteSpace(category.Name))
-                throw new ArgumentException("Category name cannot be empty.", nameof(category.Name));
-
-            using var context = _dbContextFactory();
-            bool nameExists = await context.Categories.AnyAsync(c => c.Name == category.Name);
-            if (nameExists)
-                throw new InvalidOperationException($"Category with name '{category.Name}' already exists.");
-
-            context.Categories.Add(category);
-            await context.SaveChangesAsync();
-            return category;
-        }
 
         public async Task<Category> UpdateCategoryAsync(Category category)
         {

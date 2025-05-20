@@ -43,7 +43,6 @@ namespace OnlineRestaurantWpf.Converters
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            // Not typically needed for one-way visibility conversion
             throw new NotImplementedException();
         }
     }

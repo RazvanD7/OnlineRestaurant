@@ -40,7 +40,6 @@ namespace OnlineRestaurantWpf.Converters
                     }
                 }
             }
-            // Return placeholder as BitmapImage
             return new BitmapImage(new Uri("pack://application:,,,/Assets/Images/placeholder.png", UriKind.Absolute));
         }
 

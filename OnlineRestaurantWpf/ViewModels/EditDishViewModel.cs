@@ -111,7 +111,6 @@ namespace OnlineRestaurantWpf.ViewModels
             _originalDish.Unit = Unit;
             _originalDish.CategoryId = SelectedCategory.Id;
             _originalDish.Category = SelectedCategory;
-            // Save allergens and images
             var allergenIds = SelectedAllergens.Select(a => a.Id).ToList();
             var imagePaths = Images.Select(img => img.ImagePath).ToList();
             await _dishBLL.UpdateDishAsync(_originalDish, allergenIds, imagePaths);

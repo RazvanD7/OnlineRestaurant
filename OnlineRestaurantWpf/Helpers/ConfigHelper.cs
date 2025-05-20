@@ -7,7 +7,6 @@ namespace OnlineRestaurantWpf.Helpers
     {
         private readonly IConfiguration _configuration;
 
-        // Constructor for Dependency Injection
         public ConfigHelper(IConfiguration configuration)
         {
             _configuration = configuration;
@@ -17,12 +16,6 @@ namespace OnlineRestaurantWpf.Helpers
         {
             return _configuration.GetConnectionString(name)
                    ?? throw new InvalidOperationException($"Connection string '{name}' not found.");
-        }
-
-        public string GetAppSetting(string key)
-        {
-            return _configuration[$"AppSettings:{key}"]
-                   ?? throw new InvalidOperationException($"App setting '{key}' not found.");
         }
 
         public T GetAppSetting<T>(string key) where T : IConvertible
@@ -42,14 +35,6 @@ namespace OnlineRestaurantWpf.Helpers
             }
         }
 
-        // Specific configuration getters (examples)
         public decimal MenuDiscountPercentageX => GetAppSetting<decimal>("MenuDiscountPercentageX");
-        public decimal OrderDiscountThresholdY => GetAppSetting<decimal>("OrderDiscountThresholdY");
-        public int OrderCountForDiscountZ => GetAppSetting<int>("OrderCountForDiscountZ");
-        public int OrderTimeIntervalT => GetAppSetting<int>("OrderTimeIntervalT");
-        public decimal OrderDiscountPercentageW => GetAppSetting<decimal>("OrderDiscountPercentageW");
-        public decimal MinOrderValueForFreeShippingA => GetAppSetting<decimal>("MinOrderValueForFreeShippingA");
-        public decimal ShippingCostB => GetAppSetting<decimal>("ShippingCostB");
-        public int LowStockThresholdC => GetAppSetting<int>("LowStockThresholdC");
     }
 }

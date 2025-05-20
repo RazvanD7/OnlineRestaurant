@@ -48,16 +48,6 @@ namespace OnlineRestaurantWpf.ViewModels
             _userBLL = userBLL;
         }
 
-        private bool CanRegister()
-        {
-            return !string.IsNullOrWhiteSpace(FirstName) &&
-                   !string.IsNullOrWhiteSpace(LastName) &&
-            !string.IsNullOrWhiteSpace(Email) &&
-                   (SecurePassword != null && SecurePassword.Length > 0) &&
-                   (SecureConfirmPassword != null && SecureConfirmPassword.Length > 0) &&
-                   !IsRegistrationInProgress;
-        }
-
         [RelayCommand]
         private async Task RegisterAsync()
         {
@@ -78,12 +68,10 @@ namespace OnlineRestaurantWpf.ViewModels
             if (passwordPlainText != confirmPasswordPlainText)
             {
                 ErrorMessage = "Passwords do not match.";
-                // Clear the plain text passwords for security
                 passwordPlainText = string.Empty;
                 confirmPasswordPlainText = string.Empty;
                 SecurePassword.Clear();
                 SecureConfirmPassword.Clear();
-                // Manually trigger CanExecuteChanged if properties bound to PasswordBox don't auto-update it
                 RegisterCommand.NotifyCanExecuteChanged();
                 return;
             }
@@ -100,30 +88,22 @@ namespace OnlineRestaurantWpf.ViewModels
                     Email = this.Email!,
                     Phone = this.Phone,
                     Address = this.Address,
-                    Role = "Client" // Default role for new registrations
+                    Role = "Client"
                 };
 
                 await _userBLL.RegisterUserAsync(newUser, passwordPlainText);
                 MessageBox.Show("Registration successful! Please log in.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                 RegistrationSuccessful?.Invoke();
             }
-            catch (InvalidOperationException ex) // Catch specific exception for existing email
-            {
-                ErrorMessage = ex.Message;
-            }
-            catch (ArgumentException ex) // Catch validation exceptions from BLL
-            {
-                ErrorMessage = ex.Message;
-            }
             catch (Exception ex)
             {
-                // Log ex for detailed error information
-                ErrorMessage = "An unexpected error occurred during registration.";
+                ErrorMessage = ex is InvalidOperationException || ex is ArgumentException 
+                    ? ex.Message 
+                    : "An unexpected error occurred during registration.";
             }
             finally
             {
                 IsRegistrationInProgress = false;
-                // Clear passwords after attempt
                 passwordPlainText = string.Empty;
                 confirmPasswordPlainText = string.Empty;
                 SecurePassword?.Clear();
@@ -133,7 +113,7 @@ namespace OnlineRestaurantWpf.ViewModels
         }
 
         [RelayCommand]
-        private void NavigateBackToLogin()
+        private void NavigateBackToLogin()  
         {
             NavigateBackToLoginRequested?.Invoke();
         }

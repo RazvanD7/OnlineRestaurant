@@ -85,19 +85,6 @@ namespace OnlineRestaurantWpf.Data
                 .HasIndex(a => a.Name)
                 .IsUnique();
 
-            // Decimal precision is now handled by [Column(TypeName = "...")] attributes in models.
-            // If not using attributes, you would configure here:
-            // modelBuilder.Entity<Dish>(entity =>
-            // {
-            //     entity.Property(d => d.Price).HasColumnType("decimal(18,2)");
-            //     entity.Property(d => d.PortionQuantity).HasColumnType("decimal(10,2)");
-            //     entity.Property(d => d.TotalQuantity).HasColumnType("decimal(10,2)");
-            // });
-            // modelBuilder.Entity<MenuDish>(entity =>
-            // {
-            //    entity.Property(md => md.QuantityInMenu).HasColumnType("decimal(10,2)");
-            // });
-            // ... and for other decimal properties in Order, OrderItem, Menu ...
         }
     }
 }

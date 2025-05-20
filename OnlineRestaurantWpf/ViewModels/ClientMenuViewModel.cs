@@ -192,7 +192,7 @@ namespace OnlineRestaurantWpf.ViewModels
 
                     if (SearchByName)
                     {
-                        // Search by name (both dishes and menus)
+                        // Search by name
                         categoryDishes = categoryDishes.Where(d => 
                             d.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase));
                         
@@ -248,7 +248,7 @@ namespace OnlineRestaurantWpf.ViewModels
             if (dish == null) return;
             var editWindow = new Views.EditDishWindow { DataContext = new ViewModels.EditDishViewModel(dish, _dishBLL, _categoryBLL, _allergenBLL) };
             editWindow.ShowDialog();
-            LoadMenuDataCommand.Execute(null); // Refresh after editing
+            LoadMenuDataCommand.Execute(null);
         }
 
         [RelayCommand]
@@ -257,7 +257,7 @@ namespace OnlineRestaurantWpf.ViewModels
             if (menu == null) return;
             var editWindow = new Views.EditMenuWindow { DataContext = new ViewModels.EditMenuViewModel(menu, _menuBLL, _categoryBLL, _dishBLL, _allergenBLL) };
             editWindow.ShowDialog();
-            LoadMenuDataCommand.Execute(null); // Refresh after editing
+            LoadMenuDataCommand.Execute(null);
         }
     }
 }

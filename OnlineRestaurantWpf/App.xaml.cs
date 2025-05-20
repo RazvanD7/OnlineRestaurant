@@ -72,9 +72,7 @@ namespace OnlineRestaurantWpf
             services.AddTransient<LoginViewModel>();
             services.AddTransient<RegisterViewModel>();
             services.AddTransient<ClientMenuViewModel>();
-
             services.AddSingleton<MainViewModel>();
-
             services.AddTransient<MainWindow>();
         }
     }
